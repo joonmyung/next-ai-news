@@ -12,7 +12,7 @@ import {
 } from "@/app/db";
 import { sql } from "drizzle-orm";
 
-export const maxDuration = 120;
+export const maxDuration = 10;
 
 const ai = new OpenAI({
   baseURL: "https://api.endpoints.anyscale.com/v1",
